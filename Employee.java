@@ -7,7 +7,7 @@ public class Employee {
 	private int Salary;
 	private String Email;
 	private int netSalary;
-	public int i,num;
+	
 
 	
 	public int getNetSalary() {
@@ -59,11 +59,11 @@ public class Employee {
 	}
 	Employee(String name,int Id, String Email, int Salary)
 	{
-		for(i=0;i<=num;i++) {
+		
 		this.name=name;
 		this.Id=Id;
 		this.Email=Email;
 		this.Salary=Salary;
-	}
+	
 	}
 }

@@ -1,23 +1,24 @@
 package collectionFramework;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
 public class Employeeinfo {
 public static void main(String[] args) {
-	Scanner sc= new Scanner(System.in);
-	System.out.println("Enter the number of employee");
-	int num=sc.nextInt();
+	
 	Employee anusha= new Employee("Anusha",16,"anuskasthacr7@gmail.com",30000);
 	Employee bikash = new Employee("Bikash",17,"bikasshah1921@gmail.com",30030);
 	Employee sita= new Employee("Sitara",18," sitashrestha@gmail.com",11111);
+	
 	
 	List<Employee> employeeList= new ArrayList<>();
 	employeeList.add(anusha);
 	employeeList.add(bikash);
 	employeeList.add(sita);
+	
 	
 	Iterator iterator = employeeList.iterator();
 	while(iterator.hasNext())
